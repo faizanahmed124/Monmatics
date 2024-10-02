@@ -1,0 +1,14 @@
+/* Default (small and medium screens) */
+.footer-bg {
+  background-image: none;
+}
+
+/* Large screens (lg and above) */
+@media (min-width: 1040px) {
+  .footer-bg {
+    background-image: url('../Footer/images/Backgrounds.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
